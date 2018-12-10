@@ -9,4 +9,4 @@ git commit -m "init commit"
 git push -u -f origin master
 
 cd ..
-echo "DONE"
+rm -rf _site
