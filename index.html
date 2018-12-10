@@ -1,0 +1,1036 @@
+
+<!DOCTYPE html>
+<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<head>
+
+    <title>@dmarczydlo Full-Stack Web Developer</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <meta name="description" content="@dmarczydlo Full-Stack Web Developer"/>
+
+    <!-- CSS | bootstrap -->
+    <!-- Credits: http://getbootstrap.com/ -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+
+    <!-- CSS | font-awesome -->
+    <!-- Credits: http://fortawesome.github.io/Font-Awesome/icons/ -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css"/>
+
+    <!-- CSS | animate -->
+    <!-- Credits: http://daneden.github.io/animate.css/ -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css"/>
+
+    <!-- CSS | Normalize -->
+    <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css"/>
+
+    <!-- CSS | Colors -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/color.css" id="colors-style"/>
+
+    <!-- CSS | Style -->
+    <!-- Credits: http://themeforest.net/user/FlexyCodes -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+
+    <!-- CSS | prettyPhoto -->
+    <!-- Credits: http://www.no-margin-for-errors.com/ -->
+    <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css"/>
+
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="assets/css/icons/font-awesome-ie7.min.css"/>
+    <![endif]-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon//favicon-16x16.png">
+    <link rel="manifest" href="images/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        @media only screen and (max-width: 991px) {
+            .resp-vtabs .resp-tabs-container {
+                margin-left: 13px;
+            }
+        }
+
+        @media only screen and (min-width: 800px) and (max-width: 991px) {
+            .resp-vtabs .resp-tabs-container {
+                margin-left: 13px;
+                width: 89%;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+      <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Laoding page -->
+<div id="preloader"><div id="spinner"></div></div>
+
+<!-- .slideshow -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+    <li><span>Image 01</span><div></div></li>
+    <li><span>Image 02</span><div></div></li>
+    <li><span>Image 03</span><div></div></li>
+    <li><span>Image 04</span><div></div></li>
+    <li><span>Image 05</span><div></div></li>
+    <li><span>Image 06</span><div></div></li>
+</ul>
+<!-- /.slideshow -->
+
+<!-- .wrapper -->
+<div class="wrapper">
+
+<!--- .Content -->
+<section class="tab-content">
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-12">
+
+<div class="row">
+
+<!-- profile -->
+<div class="col-md-3 widget-profil">
+<div class="row">
+
+    <!-- Profile Image -->
+    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+         <div class="image-holder one" id="pic_prof_1" style="display:block">
+                <img class="head-image up circle" src="images/img/avatar.jpg" width="150" height="150" alt="avatar" />
+        </div>
+
+        <!-- style for simple image profile -->
+   		<div class="circle-img" id="pic_prof_2" style="display:none"></div>
+
+    </div>
+    <!-- End Profile Image -->
+
+    <!-- Begin profile information -->
+    <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+        <!-- Profile info -->
+        <div id="profile_info">
+            <h1 id="name" class="transition-02">Daniel Marczydło</h1>
+            <h4 class="line">Full-Stack Web Developer</h4>
+            <h6><span class="fa fa-map-marker"></span> Rzeszów , PL</h6>
+        </div>
+        <!-- End Profile info -->
+
+
+        <!-- Profile Description -->
+        <div id="profile_desc">
+            <p>
+                I'm Full-Stack Web developer. 'Freaky coder'.  Determined and open to new knowledge and experience (e.q: React, Blockchain)
+            </p>
+
+        </div>
+        <!-- End Profile Description -->
+
+
+        <!-- Name -->
+         <div id="profile_social">
+            <h6>My Social Profiles</h6>
+             <div class="items">
+                <a href="https://www.facebook.com/daniel.marczydlo"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-marczydlo/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/dmarczydlo"><i class="fab fa-github"></i></a>
+             </div>
+            <div class="clear"></div>
+        </div>
+        <!-- End Name -->
+
+        <div class="footer">
+            <p>
+                &copy; site based on jekyll & <a href="https://themeforest.net/item/flexyvcard-responsive-vcard-template-/7158750" target="_blank" title="flexycodes" class="a-footer">Flexycodex</a>
+            </p>
+        </div>
+
+    </div>
+    <!-- End profile information -->
+
+</div>
+</div>
+<!-- end profile -->
+
+<div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+
+<!-- verticalTab menu -->
+<div id="verticalTab">
+
+    <ul class="resp-tabs-list">
+        <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">
+            <span class="tite-list">profile</span>
+            <i class="fa fa-user icon_menu icon_menu_active"></i>
+        </li>
+
+        <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume">
+            <span class="tite-list">resume</span>
+            <i class="fa fa-tasks icon_menu"></i>
+        </li>
+
+        <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio">
+            <span class="tite-list">portfolio</span>
+            <i class="fa fa-briefcase icon_menu"></i>
+        </li>
+
+        <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;">
+            <span class="tite-list">contact</span>
+            <i class="fa fa-envelope icon_menu"></i>
+        </li>
+
+    </ul>
+    <!-- /resp-tabs-list -->
+
+
+
+<!-- resp-tabs-container -->
+<div class="resp-tabs-container">
+
+<!-- profile -->
+<div id="profile" class="content_2">
+    <!-- .title -->
+<h1 class="h-bloc">Profile - About Me</h1>
+
+<div class="row top-p">
+    <div class="col-md-6 profile-l">
+
+        <!--About me-->
+        <div class="title_content">
+            <div class="text_content">Daniel Marczydło</div>
+            <div class="clear"></div>
+        </div>
+
+		   <ul class="about">
+
+            <li>
+                <i class="glyphicon glyphicon-user"></i>
+                <label>Name</label>
+                <span class="value">Daniel Marczydlo</span>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <i class="glyphicon glyphicon-calendar"></i>
+                <label>Date of birth</label>
+                <span class="value">July 18</span>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <i class="glyphicon glyphicon-map-marker"></i>
+                <label>Adress</label>
+                <span class="value">Rzeszów , PL</span>
+                <div class="clear"></div>
+            </li>
+
+            <li>
+                <i class="glyphicon glyphicon-envelope"></i>
+                <label>Email</label>
+                <span class="value">daniel.marczydlo@gmail.com</span>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-globe"></i>
+                <label>Website</label>
+                <span class="value"><a href="#" target="_blank">marczydlo.pl</a></span>
+                <div class="clear"></div>
+            </li>
+
+        </ul>
+
+
+        <p style="margin-bottom:20px">
+            <i class="fa fa-quote-left"></i>
+            I'm Full-Stack Web developer. 'Freaky coder'.  Determined and open to new knowledge and experience e.g: React, Blockchain. DApps developer.
+        </p>
+
+         <p style="margin-bottom:20px">
+            <i class="fa fa-quote-left"></i>
+             Passionate about football and volleyball. A Real Madrid fan from a child
+        </p>
+
+        <p style="margin-bottom:20px">
+            <i class="fa fa-quote-left"></i>
+            My motto is <strong>"New experiences..."</strong>
+        </p>
+
+
+    </div>
+    <!-- End left-wrap -->
+
+    <div class="col-md-6 profile-r">
+
+        <div class="cycle-slideshow">
+            <img src="images/img-profile/about_1.jpg" alt="image" />
+            <img src="images/img-profile/about_2.png" alt="image" />
+            <img src="images/img-profile/about_3.png" alt="image" />
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- begin service -->
+<div class="clear"></div>
+<div class="row" id="services">
+	<div class="col-md-12">
+        <div class="title_content">
+            <div class="text_content">Services</div>
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="col-md-4 pack-service">
+            <div class="service">
+                <div class="service-icon"><i class="fab fa-react"></i></div>
+                <div class="service-detail">
+                    <h6>Progressive Web Apps</h6>
+                    <p>I create modern apps based on react as static pages.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 pack-service">
+            <div class="service">
+                <div class="service-icon"><i class="far fa-file-code"></i></div>
+                <div class="service-detail">
+                    <h6>Web Platforms</h6>
+                    <p>Web services for business based on Node JS or PHP.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 pack-service">
+            <div class="service">
+                <div class="service-icon"><i class="fa fa-file-excel"></i></div>
+                <div class="service-detail">
+                    <h6>Excel expert </h6>
+                    <p>Excel expert with experiences.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+</div><!-- End Services -->
+
+<div class="clear"></div>
+</div>
+<!-- End .profile -->
+
+
+<!-- .resume -->
+<div id="resume" class="content_2">
+    <!-- .title -->
+    <h1 class="h-bloc">Resume - Personal Info</h1>
+    <div class="row">
+        <!-- .resume-right -->
+        <div class="col-md-6">
+            <!-- .title_content -->
+            <div class="title_content" style="float: none;">
+                <div class="text_content">Programming Skills</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+            <div class="skills">
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="95%">
+                    <div class="skillbar-title"><span>React</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">95%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="90%">
+                    <div class="skillbar-title"><span>PHP</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="85%">
+                    <div class="skillbar-title"><span>JavaScript</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">85%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="85%">
+                    <div class="skillbar-title"><span>ES6</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">85%</div>
+                </div>
+
+                <!-- /.skillbar -->
+                <div class="skillbar clearfix" data-percent="75%">
+                    <div class="skillbar-title"><span>Node Js</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- /.skillbar -->
+                <div class="skillbar clearfix" data-percent="80%">
+                    <div class="skillbar-title"><span>Blockchain</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+                <!-- /.skillbar -->
+
+            </div>
+
+            <!-- .title_content -->
+            <div class="title_content" style="float: none;">
+                <div class="text_content">Frameworks</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <div class="skills">
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="85%">
+                    <div class="skillbar-title"><span>Symfony</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">85%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title"><span>Laravel</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title"><span>Adonis JS</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>JQuery</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">95%</div>
+                </div>
+                <!-- /.skillbar -->
+            </div>
+
+            <!-- .title_content -->
+            <div class="title_content" style="float: none;">
+                <div class="text_content">Databases</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <div class="skills">
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="95%">
+                    <div class="skillbar-title"><span>MySQL</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">95%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title"><span>PostgreSQL</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title"><span>MongoDB</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">50%%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title"><span>Firebase</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">50%</div>
+                </div>
+                <!-- /.skillbar -->
+            </div>
+
+            <div class="title_content" style="float: none;">
+                <div class="text_content">Developer tools</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <div class="skills">
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="80%">
+                    <div class="skillbar-title"><span>Jira</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+                <!-- /.skillbar -->
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="70%">
+                    <div class="skillbar-title"><span>Docker</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">70%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title"><span>Git</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title"><span>Github/Gitlab</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">80%%</div>
+                </div>
+                <!-- /.skillbar -->
+
+                <!-- .skillbar -->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title"><span>PhpStorm</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+                <!-- /.skillbar -->
+            </div>
+        </div>
+        <!-- /.resume-right -->
+
+        <!-- .resume-left -->
+        <div class="col-md-6 resume-left">
+            <!-- .title_content -->
+            <div class="title_content" style="margin-bottom:5px">
+                <div class="text_content">Experience</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <!-- .attributes -->
+            <ul class="attributes">
+                <li class="first">
+                    <h5>Full-Stack Web Developer <span class="duration"><i class="fa fa-calendar color"></i> 2017 - now</span>
+                    </h5>
+                    <h6><span class="fa fa-briefcase"></span> Concise Software</h6>
+                    <p>Member of <strong>blockchain</strong> developers team (DApps developer). React and Node JS
+                        passionate.</p>
+                </li>
+                <li>
+                    <h5>Full-Stack Web Developer <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2017</span>
+                    </h5>
+                    <h6><span class="fa fa-briefcase"></span> Isoft</h6>
+                    <p>Customer needs analysis, creating custom software for clients, managing a small team of
+                        developers, software architecture, conducting training in IT.</p>
+                </li>
+            </ul>
+            <!-- /.attributes -->
+            <br/>
+            <!-- .title_content -->
+            <div class="title_content">
+                <div class="text_content">Education</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <!-- .attributes -->
+            <ul class="attributes">
+                <li class="first">
+                    <h5>Master of Engineering <span class="duration"><i
+                            class="fa fa-calendar color"></i> 2013 - 2015</span></h5>
+                    <h6><span class="fa fa-book"></span> Politechnika Rzeszowska im. Ignacego Łukasiewicza</h6>
+                </li>
+                <li>
+                    <h5>Bachelor of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2009 - 2013</span>
+                    </h5>
+                    <h6><span class="fa fa-book"></span> Politechnika Rzeszowska im. Ignacego Łukasiewicza</h6>
+                </li>
+                <li>
+                    <h5>IT specialist <span class="duration"><i class="fa fa-calendar color"></i> 2004 - 2009</span>
+                    </h5>
+                    <h6><span class="fa fa-book"></span> Technical School of Electronics in Rzeszów</h6>
+                </li>
+            </ul>
+
+            <!-- /.attributes -->
+
+            <!-- .title_content -->
+            <div class="title_content" style="float: none;">
+                <div class="text_content">Language Skills</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <div class="skills">
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="75%">
+                    <div class="skillbar-title"><span>English</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+                <!-- /.skillbar -->
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="10%">
+                    <div class="skillbar-title"><span>German</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">10%</div>
+                </div>
+                <!-- /.skillbar -->
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="10%">
+                    <div class="skillbar-title"><span>French</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">10%</div>
+                </div>
+                <!-- /.skillbar -->
+                <!-- .skillbar -->
+                <div class="skillbar clearfix" data-percent="15%">
+                    <div class="skillbar-title"><span>Portuguese</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">15%</div>
+                </div>
+                <!-- /.skillbar -->
+            </div>
+
+            <!-- .title_content -->
+            <div class="title_content" style="float: none;">
+                <div class="text_content">My Resume</div>
+                <div class="clear"></div>
+            </div>
+            <!-- /.title_content -->
+
+            <!-- .download_resume -->
+            <a class="download" style="margin:0;float: left;" href="#">
+                <span data-hover="Download My Resume"><i class="glyphicon glyphicon-download-alt"></i> Download My Resume</span>
+            </a>
+            <!-- /.download_resume -->
+
+        </div>
+        <!-- /.resume-left -->
+    </div>
+
+    <div style="clear: both"></div>
+
+</div>
+<!-- End .resume -->
+
+
+<!-- .portfolio -->
+<div id="portfolio" class="content_2">
+
+    <!-- .title -->
+    <h1 class="h-bloc">Portfolio - My Works</h1>
+
+    <!-- .container-portfolio -->
+    <div class="container-portfolio">
+
+        <!-- #filters -->
+        <ul id="filters" class="clearfix">
+            <li><span class="filter active" data-filter="react symfony others">All</span></li>
+            <li><span class="filter" data-filter="react">React</span></li>
+            <li><span class="filter" data-filter="symfony">Symfony</span></li>
+            <li><span class="filter" data-filter="others">Others</span></li>
+        </ul>
+        <!-- /#filters -->
+
+        <!-- #portfoliolist -->
+        <div id="portfoliolist">
+
+            <!-- .portfolio -->
+            <div class="portfolio react" data-cat="react">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/react.png" rel="portfolio" title="My react starter pack. Based on PWA, served by nginx docker. https://github.com/dmarczydlo/react-starter">
+                        <img src="images/portfolio/react.png" alt="React-starter" />
+                        <div class="label">
+                            <div class="label-text">
+                                <span class="text-title">React-starter</span>
+                                <span class="text-category">React</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+            <!-- /.portfolio -->
+
+            <!-- .portfolio -->
+            <div class="portfolio react" data-cat="react">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/docker-logs1.png" rel="portfolio" title="Open source application to display information about dockers status. Multi servers are
+                    available. https://github.com/dmarczydlo/docker-logger">
+                        <img src="images/portfolio/docker-logs1.png" alt="Docker Logger" />
+                        <div class="label">
+                            <div class="label-text">
+                                <span class="text-title">Docker Logger</span>
+                                <span class="text-category">React</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+
+            <!-- .portfolio -->
+            <div class="portfolio react" data-cat="react">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/github-projects.png" rel="portfolio" title="Github react component based on graphql. https://github.com/dmarczydlo/docker-logger">
+                        <img src="images/portfolio/github-projects.png" alt="Github-component" />
+                        <div class="label">
+                            <div class="label-text">
+                                <span class="text-title">Github-component</span>
+                                <span class="text-category">React</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+            <!-- /.portfolio -->
+
+            <!-- .portfolio -->
+            <div class="portfolio symfony" data-cat="symfony">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/speedplan.png" rel="portfolio" title="Speed Plan is a platform for freight forwarding. It allows to control (with status and reports) the current status of the order.">
+                        <img src="images/portfolio/speedplan.png" alt="Github-component" />
+                        <div class="label">
+                            <div class="label-text">
+                                <span class="text-title">Speed plan</span>
+                                <span class="text-category">Symfony</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+            <!-- /.portfolio -->
+
+            <!-- .portfolio -->
+            <div class="portfolio symfony" data-cat="symfony">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/clpost.png" rel="portfolio" title="Platform CLpost.eu is used by store Exclusivum.com to delivering parcels to Ukraine. http://clpost.eu">
+                        <img src="images/portfolio/clpost.png" alt="Github-component" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Speed plan</a>
+                                <span class="text-category">Symfony</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+            <!-- /.portfolio -->
+
+            <!-- .portfolio -->
+            <div class="portfolio others" data-cat="others">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/ocentv.png" rel="portfolio" title="Ocen.tv is a service allows you to record and analysis speaker’s. http://ocen.tv">
+                        <img src="images/portfolio/ocentv.png" alt="Github-component" />
+                        <div class="label">
+                            <div class="label-text">
+                                <span class="text-title">Ocen.tv</span>
+                                <span class="text-category">Others</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+            <!-- /.portfolio -->
+
+            <!-- .portfolio -->
+            <div class="portfolio others" data-cat="others">
+                <!-- .portfolio-wrapper -->
+                <div class="portfolio-wrapper">
+                    <a href="images/portfolio/exclusivum.png" rel="portfolio" title="Store campaigns for Ukrainian customers. http://exclusivum.com">
+                        <img src="images/portfolio/exclusivum.png" alt="Github-component" />
+                        <div class="label">
+                            <div class="label-text">
+                                <span class="text-title">Exclusivum.com</span>
+                                <span class="text-category">Others</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.portfolio-wrapper -->
+            </div>
+            <!-- /.portfolio -->
+
+            <div class="clear"></div>
+
+        </div>
+        <!-- #portfoliolist -->
+    </div>
+    <!-- /.container-portfolio -->
+</div>
+<!-- End .portfolio -->
+
+
+<!-- .contact -->
+<div id="contact" class="content_2">
+    <h1 class="h-bloc">Contact - Contact Me</h1>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="logo-contact">
+                <img src="images/img/logo_d_cz.png" alt=""/>
+            </div>
+            <div class="row" id="contact-user">
+                <div class="col-md-5">
+                    <div class="contact-info">
+                        <div class="title_content" style="float: none;">
+                            <div class="text_content">Contact info</div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <ul>
+                            <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span>
+                                Rzeszów , PL.
+                            </li>
+                            <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span>
+                                daniel.marczydlo@gmail.com
+                            </li>
+                            <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span>
+                                www.marczydlo.pl
+                            </li>
+                            <li><span class="span-info"><i class="glyphicon glyphicon-comment"></i> Skype:</span>
+                                marczak1234
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /Contact Info -->
+                    <div class="clear"></div>
+
+                    <div class="title_content tiltle_contacts" style="float: none;">
+                        <div class="text_content">Follow me</div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div id="profile_social" class="displayAnyTime">
+                        <div class="items">
+                            <a href="https://www.facebook.com/daniel.marczydlo"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/daniel-marczydlo/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/dmarczydlo"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-7">
+                    <!-- Contact Form -->
+                    <div class="title_content" style="float: none;">
+                        <div class="text_content">Let's keep in touch</div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="contact-form">
+
+                        <div id="contact-status"></div>
+
+                        <form action="#" id="contactform">
+                            <p class="form-group" id="contact-name">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control name-contact" id="inputSuccess"
+                                       placeholder="Name..."/>
+                            </p>
+                            <p class="form-group" id="contact-email">
+                                <label for="email">Your Email</label>
+                                <input type="text" name="email" class="form-control email-contact" id="inputSuccess"
+                                       placeholder="Email..."/>
+                            </p>
+
+                            <p class="form-group" id="contact-message">
+                                <label for="message">Your Message</label>
+                                <textarea name="message" cols="88" rows="6" class="form-control message-contact"
+                                          id="inputError" placeholder="Message..."></textarea>
+                            </p>
+                            <input type="reset" name="reset" value="CLEAR" class="reset">
+                            <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+
+                            <section class="button-demo" style="display: inline-block;">
+                                <button class="ladda-button submit send_email" name="submit" data-color="green"
+                                        data-style="expand-left">SEND MESSAGE
+                                </button>
+                            </section>
+
+                        </form>
+                    </div>
+                    <!-- /Contact Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End .contact -->
+
+
+
+</div>
+<!-- End #resp-tabs-container -->
+
+</div><!-- End verticalTab -->
+
+</div><!-- End flexy_content -->
+
+
+</div><!-- End row -->
+
+</div><!-- End col-md-12 -->
+
+</div><!-- End row -->
+
+</div><!-- End container -->
+
+</section>
+<!-- End Content -->
+
+</div>
+<!-- End wrapper -->
+
+
+
+
+
+
+      <!-- </div> -->
+
+<!--     <footer class="footer">
+    </footer>
+ -->
+
+<!-- jquery | jQuery 1.11.0 -->
+<!-- Credits: http://jquery.com -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<!-- Js | bootstrap -->
+<!-- Credits: http://getbootstrap.com/ -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+<!-- Js | jquery.cycle -->
+<!-- Credits: https://github.com/malsup/cycle2 -->
+<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script>
+
+<!-- jquery | rotate and portfolio -->
+<!-- Credits: http://jquery.com -->
+<script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="assets/js/HeadImage.js"></script>
+
+<!-- Js | easyResponsiveTabs -->
+<!-- Credits: http://webtrendset.com/demo/easy-responsive-tabs/Index.html -->
+<script type="text/javascript" src="assets/js/easyResponsiveTabs.min.js"></script>
+
+<!-- Js | mCustomScrollbar -->
+<!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+<script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<!-- jquery | prettyPhoto -->
+<!-- Credits: http://www.no-margin-for-errors.com/ -->
+<script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
+
+<!-- Js | Js -->
+<!-- Credits: http://themeforest.net/user/FlexyCodes -->
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+<!-- code js for image rotate -->
+<script type="text/javascript">
+
+    var mouseX;
+    var mouseY;
+    var imageOne;
+
+    /* Calling the initialization function */
+    $(init);
+
+    /* The images need to re-initialize on load and on resize, or else the areas
+     * where each image is displayed will be wrong. */
+    $(window).load(init);
+    $(window).resize(init);
+
+    /* Setting the mousemove event caller */
+    $(window).mousemove(getMousePosition);
+
+    /* This function is called on document ready, on load and on resize
+     * and initiallizes all the images */
+    function init() {
+
+        /* Instanciate the mouse position variables */
+        mouseX = 0;
+        mouseY = 0;
+
+        /* Instanciate a HeadImage class for every image */
+        imageOne = new HeadImage("one");
+
+    }
+
+    /* This function is called on mouse move and gets the mouse position.
+     * It also calls the HeadImage function to display the correct image*/
+    function getMousePosition(event) {
+
+        /* Setting the mouse position variables */
+        mouseX = event.pageX;
+        mouseY = event.pageY;
+
+        /*Calling the setImageDirection function of the HeadImage class
+         * to display the correct image*/
+        imageOne.setImageDirection();
+
+    }
+
+</script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</body>
+</html>
+
